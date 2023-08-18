@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../config.ts"],
+  "sourcesContent": ["export const config = {\n  host: 'tiny.db.elephantsql.com', /* DB Path */\n  port: 5432,\n  user: 'rctnyvel', /* DB user name */\n  password: '2qMl17NmMaR9KMQd302pLETeNnWyjtLq', /* DB password */\n  database: 'rctnyvel',\n  connection_limit: 100\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,MAAM,SAAS;AAAA,EACpB,MAAM;AAAA,EACN,MAAM;AAAA,EACN,MAAM;AAAA,EACN,UAAU;AAAA,EACV,UAAU;AAAA,EACV,kBAAkB;AACpB;",
+  "names": []
+}

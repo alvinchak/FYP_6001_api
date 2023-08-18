@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["import Koa from \"koa\";\nimport Router, {RouterContext} from \"koa-router\";\nimport logger from \"koa-logger\";\nimport json from \"koa-json\";\nimport passport from \"koa-passport\";\n\nimport cors from '@koa/cors';\n\nimport {router as products} from \"./routes/products\";\n\nconst app: Koa = new Koa();\n\napp.use(cors());\napp.use(logger());\napp.use(json());\napp.use(passport.initialize());\napp.use(products.routes());\n\napp.listen(10888);"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA,iBAAgB;AAEhB,wBAAmB;AACnB,sBAAiB;AACjB,0BAAqB;AAErB,kBAAiB;AAEjB,sBAAiC;AAEjC,MAAM,MAAW,IAAI,WAAAA,QAAI;AAEzB,IAAI,QAAI,YAAAC,SAAK,CAAC;AACd,IAAI,QAAI,kBAAAC,SAAO,CAAC;AAChB,IAAI,QAAI,gBAAAC,SAAK,CAAC;AACd,IAAI,IAAI,oBAAAC,QAAS,WAAW,CAAC;AAC7B,IAAI,IAAI,gBAAAC,OAAS,OAAO,CAAC;AAEzB,IAAI,OAAO,KAAK;",
+  "names": ["Koa", "cors", "logger", "json", "passport", "products"]
+}
