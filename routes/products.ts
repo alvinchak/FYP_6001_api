@@ -10,7 +10,7 @@ const router = new Router({ prefix: '/api/v1/products' });
 ///////////////////////////////////////////
 //async functions
 
-/*
+/* 
 [GET] Get Top 5 products
 - Endpoint: /recommend
 */
